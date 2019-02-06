@@ -1,1 +1,1 @@
-blank git initialization
+npm initialized
