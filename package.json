@@ -1,15 +1,61 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "react examples",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "../thuy-3"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "portfolioPiece",
+    "version": "1.0.0",
+    "description": "react examples",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "minjs": "set NODE_ENV=production && browserify src/index.js | uglifyjs -mc > lib/js/index.js",
+        "watchjs": "watchify src/index.js -o lib/js/index.js -v",
+        "reactserver": "nodemon --exec babel-node server 3030",
+        "build": "npm run minjs & babel-node build",
+        "start": "npm run reactserver"
+    },
+    "browserify": {
+        "transform": [
+            [
+                "babelify",
+                {
+                    "presets": [
+                        "react",
+                        "es2015",
+                        "stage-0"
+                    ],
+                    "plugins": [
+                        "babel-plugin-transform-es2015-destructuring",
+                        "babel-plugin-transform-decorators-legacy",
+                        "babel-plugin-transform-class-properties",
+                        "babel-plugin-transform-react-constant-elements",
+                        "babel-plugin-transform-react-inline-elements",
+                        "babel-plugin-transform-class-properties"
+                    ]
+                }
+            ]
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "../thuy-3"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-plugin-transform-react-constant-elements": "^6.23.0",
+        "babel-plugin-transform-react-inline-elements": "^6.22.0",
+        "react": "^15.4.1",
+        "react-dom": "^15.4.1"
+    },
+    "devDependencies": {
+        "express": "^4.16.4",
+        "babel-cli": "^6.18.0",
+        "browserify": "^13.1.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.5",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "babelify": "^7.3.0",
+        "core-js": "^2.4.1",
+        "uglify": "^0.1.5",
+        "watchify": "^3.8.0"
+    }
 }
