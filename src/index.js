@@ -1,6 +1,7 @@
 const React = require('react') ,
     { Component } = React
 import { render } from 'react-dom'
+import Header from './components/header.js'
 
 // for when you need to check whether you are in the browser or on the server
 // (include this line in anyfile that needs to check, it's not global)
@@ -16,6 +17,8 @@ class App extends Component {
         return  <div>
                     {/* <HighLevelComponent/> */}
                     Hello World!
+
+                    <Header />
                     
                 </div>
     }
