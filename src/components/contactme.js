@@ -19,3 +19,5 @@ class ContactMe extends Component {
     )
   }
 }
+
+export {ContactMe}

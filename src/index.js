@@ -3,8 +3,11 @@ const React = require('react') ,
 import { render } from 'react-dom'
 import { Header } from './components/header.js'
 import {ProjectGallery} from './components/projectgallery.js'
+import { AboutMe } from './components/aboutme.js'
+import { ContactMe } from './components/contactme.js'
+import { Footer } from './components/footer.js'
+import { Resume } from './components/resume.js'
 
-console.log(ProjectGallery)
 
 // for when you need to check whether you are in the browser or on the server
 // (include this line in anyfile that needs to check, it's not global)
@@ -21,9 +24,8 @@ class App extends Component {
                     {/* <HighLevelComponent/> */}
                     Hello World!
 
-                    <Header />
-                   
-                    
+                   <Resume />
+                 
                 </div>
     }
 }
@@ -31,3 +33,11 @@ class App extends Component {
 isClient && render(<App /> , document.getElementById('reactRoot'))
 
 export { App }
+
+
+//Header 
+//ProjectGallery 
+//AboutMe
+//ContactMe
+//Resume
+//Footer

@@ -30,8 +30,8 @@ const example = {
   title: 'title of project', 
   subtitle: 'mini project description',
   image: {
-    src: './images/TIYme.jpeg',
-    alt: 'my image'
+    src: '../images/pinkdesk.jpg',
+    alt: 'pig image'
   },
   text: "project descriptions",
   links:[

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navigation from './navigation,js';
+import Navigation from './navigation.js';
 
 class Footer extends Component{
   render(){
@@ -10,3 +10,5 @@ class Footer extends Component{
     )
   }
 }
+
+export { Footer }

@@ -11,8 +11,9 @@ class ProjectGallery extends Component{
   render(){
     return(
       <div className="projectGalleryContainer">
-        <div className="title"></div>
-        <div className="subTitle"></div>
+      <h1>This is from project gallery</h1>
+        <div className="title">Project Gallery</div>
+        <div className="subTitle">check out my project</div>
          <div className="grid-container">
           <div className="rowContainer">
             <div className="gridItem">
