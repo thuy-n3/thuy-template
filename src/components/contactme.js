@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ContactMe extends Component {
   render(){
     return(
-      <div className="contactMeContainer">
+      <div className="contactMeContainer" id="contactMe">
         <form className="contactForm">
           <input className="name" type="text" placeholder="Your Name"></input>
           <input className="email" type="email" placeholder="Your Email"></input>

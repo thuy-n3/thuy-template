@@ -10,7 +10,7 @@ const ExampleProject = () => ProjectTemplate(example)
 class ProjectGallery extends Component{
   render(){
     return(
-      <div className="projectGalleryContainer">
+      <div className="projectGalleryContainer" id="myProjects">
       <h1>This is from project gallery</h1>
         <div className="title">Project Gallery</div>
         <div className="subTitle">check out my project</div>

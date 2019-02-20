@@ -5,7 +5,7 @@ import Navigation from './navigation';
 class Header extends Component{
   render(){
     return(
-      <div className="headerContainer">
+      <div className="headerContainer" id="home">
         <Navigation />
         <div className="herocontainer">
           <img src='./images/pinkdesk.jpg' alt="coffee desk" className="hero" />
