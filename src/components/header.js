@@ -6,7 +6,6 @@ class Header extends Component{
   render(){
     return(
       <div className="headerContainer">
-        <h1>This is from header.js</h1>
         <Navigation />
         <div className="herocontainer">
           <img src='./images/pinkdesk.jpg' alt="coffee desk" className="hero" />

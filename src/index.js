@@ -22,9 +22,8 @@ class App extends Component {
     render(){
         return  <div>
                     {/* <HighLevelComponent/> */}
-                    Hello World!
-
-                   <Resume />
+                    
+                   <Header />
                  
                 </div>
     }
