@@ -12,7 +12,7 @@ class Header extends Component{
         </div>
 
         <div className="herocontainer">
-          <img className="heroImg" src="./images/coffeedesk.jpg" /> 
+          <div className="heroImg"></div>
           <div className="headerIntro">
             <h1 className="headerTitle">Thuy Nguyen</h1>
             <h2 className="headerSubtitle">Front-End Developer</h2>
@@ -32,3 +32,4 @@ class Header extends Component{
 
 export {Header};
 
+// <img className="heroImg" src="./images/coffeedesk.jpg" /> 
