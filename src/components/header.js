@@ -16,8 +16,7 @@ class Header extends Component{
           <div className="headerIntro">
             <h1 className="headerTitle">Thuy Nguyen</h1>
             <h2 className="headerSubtitle">Front-End Developer</h2>
-            <a href="#contactme" className="contactme">Contact Me</a>
-            <a href="#projects" className="seeProjects"> My Projects</a>
+            <a href="#contactme" className="contactme ui inverted pink button">Contact Me</a>
           </div>
         </div>
 
@@ -33,3 +32,6 @@ class Header extends Component{
 export {Header};
 
 // <img className="heroImg" src="./images/coffeedesk.jpg" /> 
+
+// <a href="#contactme" className="contactme">Contact Me</a>
+// <a href="#projects" className="seeProjects"> My Projects</a>
