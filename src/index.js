@@ -24,6 +24,7 @@ class App extends Component {
                     {/* <HighLevelComponent/> */}
                     
                    <Header />
+                   <AboutMe />
                  
                 </div>
     }
