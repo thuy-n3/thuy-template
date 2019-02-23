@@ -5,41 +5,43 @@ import {example, ProjectTemplate} from './project';
 
 
 //example of how it going to be pulled in
-const ExampleProject = () => ProjectTemplate(example) 
+// const ExampleProject = () => ProjectTemplate(example) 
 
 class ProjectGallery extends Component{
   render(){
     return(
       <div className="projectGalleryContainer" id="myProjects">
-      <h1>This is from project gallery</h1>
         <div className="title">Project Gallery</div>
         <div className="subTitle">check out my project</div>
-         <div className="grid-container">
-          <div className="rowContainer">
-            <div className="gridItem">
-              <ExampleProject />
-            </div>
-            <div className="gridItem">
-              <ExampleProject />
-            </div>
-            <div className="gridItem">
-              <ExampleProject />
-            </div>
-          </div>
-          <div className="rowContainer">
-            <div className="gridItem"></div>
-            <div className="gridItem"></div>
-            <div className="gridItem"></div>
-          </div>
-          <div className="rowContainer">
-            <div className="gridItem"></div>
-            <div className="gridItem"></div>
-            <div className="gridItem"></div>
-          </div>
-    </div>  
+        
       </div>
     )
   }
 }
 
 export {ProjectGallery}
+
+
+// <div className="grid-container">
+//   <div className="rowContainer">
+//     <div className="gridItem">
+//       <ExampleProject />
+//     </div>
+//     <div className="gridItem">
+//       <ExampleProject />
+//     </div>
+//     <div className="gridItem">
+//       <ExampleProject />
+//     </div>
+//   </div>
+//   <div className="rowContainer">
+//     <div className="gridItem"></div>
+//     <div className="gridItem"></div>
+//     <div className="gridItem"></div>
+//   </div>
+//   <div className="rowContainer">
+//     <div className="gridItem"></div>
+//     <div className="gridItem"></div>
+//     <div className="gridItem"></div>
+//   </div>
+// </div> 

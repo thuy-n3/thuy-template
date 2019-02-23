@@ -14,8 +14,8 @@ class Header extends Component{
         <div className="herocontainer">
           <div className="heroImg"></div>
           <div className="headerIntro">
-            <h1 className="headerTitle">Thuy Nguyen</h1>
-            <h2 className="headerSubtitle">Front-End Developer</h2>
+            <h1 className="headerTitle">Hi I'm Ryan Gosling</h1>
+            <h2 className="headerSubtitle">A Web Developer</h2>
             <a href="#contactme" className="contactme ui inverted pink button">Contact Me</a>
           </div>
         </div>

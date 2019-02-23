@@ -59,3 +59,39 @@ body, html{
   padding: 35px;
 }
 
+a{
+  color: #F085BF;
+}
+
+a:hover{
+  color: white;
+}
+
+/* .ui.inverted.pink.button.about{
+  margin-right:30px;
+} */
+
+.resumeButton.ui.inverted.pink{
+  margin: 10px;
+}
+
+.githubButton.ui.inverted.pink{
+  margin: 10px;
+}
+
+/* projectgallery */
+.projectGalleryContainer{
+  border: blue solid 3px;
+  background-color: #F085BF;
+
+}
+
+/* project */
+
+
+
+/* projectcard */
+
+.projectCardContainer{
+  border: blue solid 3px;
+ 
