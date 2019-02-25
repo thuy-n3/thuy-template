@@ -81,7 +81,7 @@ a:hover{
 
 /* projectgallery */
 .projectGalleryContainer{
-  border: blue solid 3px;
+
   position: relative;
  
 }
@@ -114,3 +114,20 @@ a:hover{
   border: blue solid 3px;
 }
 
+/* contactme */
+.contactMeContainer{
+  border: solid green 2px;
+ padding: 50px;
+}
+
+
+ .formContainer{
+  width: 50%;
+ 
+ }
+
+ .socialContainer{
+  width: 50%;
+
+ }
+ 
