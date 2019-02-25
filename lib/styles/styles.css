@@ -82,8 +82,26 @@ a:hover{
 /* projectgallery */
 .projectGalleryContainer{
   border: blue solid 3px;
-  background-color: #F085BF;
+  position: relative;
+ 
+}
 
+.backgroundImg{
+  height: 100%; 
+  background-position:center; ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../../images/dulcey-lima-1371461-unsplash.jpg");
+}
+
+.galleryIntro{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 /* project */
@@ -94,4 +112,5 @@ a:hover{
 
 .projectCardContainer{
   border: blue solid 3px;
- 
+}
+

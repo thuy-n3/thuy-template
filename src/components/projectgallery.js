@@ -11,9 +11,16 @@ class ProjectGallery extends Component{
   render(){
     return(
       <div className="projectGalleryContainer" id="myProjects">
-        <div className="title">Project Gallery</div>
-        <div className="subTitle">check out my project</div>
+        <div className="backgroundImg"></div>
+        <div className="galleryIntro">
+          <h1 className="title">Project Gallery</h1>
         
+        </div>
+        <div className="gridContainer">
+          
+            {/* <ProjectCard /> */}
+
+          </div>
       </div>
     )
   }
