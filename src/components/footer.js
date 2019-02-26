@@ -5,6 +5,7 @@ class Footer extends Component{
   render(){
     return (
       <div className="footerContainer">
+        <div className="footerImg"></div>
         <Navigation />
       </div>
     )
@@ -12,3 +13,5 @@ class Footer extends Component{
 }
 
 export { Footer }
+
+// <NavigationFooter />

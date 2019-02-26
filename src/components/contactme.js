@@ -27,7 +27,7 @@ class ContactMe extends Component {
 
         <div className="contactContainer">
 
-          <div className="contactInfo ui large list">
+          <div className="contactInfoContainer ui large list">
             <div className="item">
               <i className="envelope open outline icon"></i>
               <div className="content">
@@ -45,10 +45,23 @@ class ContactMe extends Component {
           </div>
 
           <div className="socialContainer">
-            <div className="socialButton"><a href="/" className="twitter">Twitter</a></div>
-            <div className="socialButton"><a href="/" className="linkedin">Linkedin</a></div>
-            <div className="socialButton"><a href="/" className="github">Github</a></div>
+            <button className="ui circular big twitter icon button">
+              <i className="twitter icon"><a href="/" className="twitter"></a></i>
+            </button>
+            <button className="ui circular big linkedin icon button">
+              <i className="linkedin icon"><a href="/" className="linkedin"></a></i>
+            </button>
+            <button className="ui circular big github icon button">
+              <i className="github icon"><a href="/" className="githubr"></a></i>
+            </button>
+            <button className="ui circular big youtube icon button">
+              <i className="youtube icon"><a href="/" className="youtube"></a></i>
+            </button>
+            <button className="ui circular big medium icon button">
+              <i className="medium icon"><a href="/" className="medium"></a></i>
+            </button>
           </div>
+
 
         </div>
 
