@@ -125,10 +125,12 @@ a:hover{
   width: 50%;
   display: inline-block;
   border: solid pink 2px;
- 
+
  }
 
- .socialContainer{
+
+
+ .contactContainer{
   width: 50%;
   display: inline-block;
   border: solid purple 2px;

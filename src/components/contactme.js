@@ -25,21 +25,32 @@ class ContactMe extends Component {
             </form>
         </div>
 
-        <div className="contactContainter">
-          <div className="email">
-          
+        <div className="contactContainer">
+
+          <div className="contactInfo ui large list">
+            <div className="item">
+              <i className="envelope open outline icon"></i>
+              <div className="content">
+                <div className="email-label header">Email</div>
+                <a href="mailto:contactme@rgdeveloper.com" className="email description">contactme@rgdeveloper.com</a>
+              </div>
+            </div>
+            <div className="item">
+              <i className="mobile alternate icon"></i>
+              <div className="content">
+                <div className="phone-label header">Phone</div>
+                <div className="phone">555-555-5555</div>
+              </div> 
+            </div>
           </div>
-          <di className="phone">
-          
-          </di>
-        </div>
 
-        <div className="socialContainer">
-          <div className="socialButton"><a href="/" className="twitter">Twitter</a></div>
-          <div className="socialButton"><a href="/" className="linkedin">Linkedin</a></div>
-          <div className="socialButton"><a href="/" className="github">Github</a></div>
-        </div>
+          <div className="socialContainer">
+            <div className="socialButton"><a href="/" className="twitter">Twitter</a></div>
+            <div className="socialButton"><a href="/" className="linkedin">Linkedin</a></div>
+            <div className="socialButton"><a href="/" className="github">Github</a></div>
+          </div>
 
+        </div>
 
       </div>
     )
