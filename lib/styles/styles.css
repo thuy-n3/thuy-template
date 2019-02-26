@@ -4,10 +4,17 @@ body, html{
 }
 
 /* navigation */
-.ui.text.menu{
+
+/* .ui.text.menu{
   margin:0;
   height: 100px;
+} */
+
+.ui.text.menu{
+  color: white;
 }
+
+
 
 /* header  */
 .heroContainer{
@@ -29,7 +36,7 @@ body, html{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../../images/coffeedesk.jpg")
+  background-image: url("../../images/alejandro-escamilla-1-unsplash.jpg")
 }
 
 .navBar{
@@ -60,7 +67,7 @@ body, html{
 }
 
 a{
-  color: #F085BF;
+  color:white; 
 }
 
 a:hover{
@@ -81,7 +88,6 @@ a:hover{
 
 /* projectgallery */
 .projectGalleryContainer{
-
   position: relative;
  
 }
