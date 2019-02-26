@@ -25,6 +25,15 @@ class ContactMe extends Component {
             </form>
         </div>
 
+        <div className="contactContainter">
+          <div className="email">
+          
+          </div>
+          <di className="phone">
+          
+          </di>
+        </div>
+
         <div className="socialContainer">
           <div className="socialButton"><a href="/" className="twitter">Twitter</a></div>
           <div className="socialButton"><a href="/" className="linkedin">Linkedin</a></div>
