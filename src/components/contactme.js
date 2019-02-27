@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import contactForm from './contactform';
 
 class ContactMe extends Component {
   render(){
