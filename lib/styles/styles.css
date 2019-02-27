@@ -4,14 +4,9 @@ body, html{
 }
 
 /* navigation */
-
-/* .ui.text.menu{
-  margin:0;
-  height: 100px;
-} */
-
 .ui.text.menu{
   color: white;
+  margin: 0;
 }
 
 
@@ -74,9 +69,6 @@ a:hover{
   color: white;
 }
 
-/* .ui.inverted.pink.button.about{
-  margin-right:30px;
-} */
 
 .resumeButton.ui.inverted.pink{
   margin: 10px;
@@ -122,18 +114,15 @@ a:hover{
 
 /* contactme */
 .contactMeContainer{
-  border: solid grey 2px;
+ border: solid grey 2px;
  padding: 50px;
 }
-
 
  .formContainer{
   width: 50%;
   display: inline-block;
   border: solid pink 2px;
-
  }
-
 
  .contactContainer{
   width: 50%;
@@ -144,27 +133,35 @@ a:hover{
 
 .contactInfoContainer{
   border: blue solid 2px;
-  /* text-align: center; */
   margin: 20px;
+  padding: 20px;
 }
 
- .socialContainer{
-   text-align: center;
-   margin: 20px;
-   padding: 20px;
-   border: green solid 2px;
-   
- }
+
+
+
+.socialContainer{
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: green solid 2px;
+}
 
  /* footer */
+
+ .footContainer{
+  position: relative;
+
+ }
+
  .footerImg{
-  height: 100%; 
   background-position:center; ;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-image: url("../../images/michael-dziedzic-1281842-unsplash.jpg");
  }
+
 
 
 

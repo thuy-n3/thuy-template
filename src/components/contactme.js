@@ -28,17 +28,19 @@ class ContactMe extends Component {
         <div className="contactContainer">
 
           <div className="contactInfoContainer ui large list">
-            <div className="item">
-              <i className="envelope open outline icon"></i>
-              <div className="content">
-                <div className="email-label header">Email</div>
+            <div className="mailCircle item">
+              <div className="ui circular big medium icon button">
+                <i className="envelope open outline icon"></i>
+              </div>
+              <div className="mail content">
                 <a href="mailto:contactme@rgdeveloper.com" className="email description">contactme@rgdeveloper.com</a>
               </div>
             </div>
-            <div className="item">
-              <i className="mobile alternate icon"></i>
-              <div className="content">
-                <div className="phone-label header">Phone</div>
+            <div className="phoneCircle item">
+              <div className="ui circular big medium icon button">
+                <i className="mobile alternate icon"></i>
+              </div>
+              <div className="phone content">
                 <div className="phone">555-555-5555</div>
               </div> 
             </div>
@@ -61,7 +63,6 @@ class ContactMe extends Component {
               <i className="medium icon"><a href="/" className="medium"></a></i>
             </button>
           </div>
-
 
         </div>
 
