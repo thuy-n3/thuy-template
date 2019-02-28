@@ -28,9 +28,12 @@ class ContactMe extends Component {
         
           <div className="contactInfoContainer">
           <h3 className="getinTouch">Get In Touch</h3>
+
+
+
             <div className="ui items">
               <div className="item email">
-                <div className="ui circular big medium icon button">
+                <div className="ui right pointing red basic label">
                   <i className="envelope open outline icon"></i>
                 </div>
                 <div className="email content">
@@ -38,7 +41,7 @@ class ContactMe extends Component {
                 </div>
               </div>
               <div className="item phone">
-                <div className="ui circular big medium icon button">
+                <div className="ui right pointing red basic label">
                   <i className="mobile alternate icon"></i>
                 </div>
                 <div className="phone content">
@@ -46,6 +49,8 @@ class ContactMe extends Component {
                 </div>
               </div>
             </div>
+
+            
           </div>
 
 
