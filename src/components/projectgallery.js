@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {example, ProjectTemplate} from './project';
+// import ProjectCard from './projectcard';
 // import {RoachReport} from 'http://github.com/thuy-n3/roachreport/components/ulti/projectcard';
 //Project component will be import from somewhere outside and pull into ExampleProject
 
@@ -16,11 +17,12 @@ class ProjectGallery extends Component{
           <h1 className="title">Project Gallery</h1>
         
         </div>
-        <div className="gridContainer">
+        <div className="gridContainer ">
           
             {/* <ProjectCard /> */}
 
-          </div>
+
+        </div>
       </div>
     )
   }

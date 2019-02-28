@@ -49,7 +49,8 @@ body, html{
 .bioImage{
   width:25%;
   border-radius: 50%;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .bioContainer{
@@ -57,8 +58,9 @@ body, html{
 }
 
 .bioText{
-  line-height: 1.50;
-  padding: 35px;
+  line-height: 1.85;
+  padding: 20px;
+
 }
 
 a{
@@ -118,27 +120,24 @@ a:hover{
  padding: 50px;
 }
 
- .formContainer{
-  width: 50%;
-  display: inline-block;
-  border: solid pink 2px;
- }
+.contactContainer{
+  border: solid yellow 3px;
+}
 
- .contactContainer{
-  width: 50%;
-  display: inline-block;
-  border: solid purple 2px;
-  vertical-align: top; 
- }
+.contactTitle{
+  text-align: center;
+}
+
+ .formContainer{
+  border: solid pink 2px;
+  text-align: center;
+ } 
 
 .contactInfoContainer{
   border: blue solid 2px;
   margin: 20px;
   padding: 20px;
 }
-
-
-
 
 .socialContainer{
   text-align: center;
@@ -151,7 +150,6 @@ a:hover{
 
  .footContainer{
   position: relative;
-
  }
 
  .footerImg{

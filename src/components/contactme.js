@@ -1,51 +1,59 @@
 import React, { Component } from 'react';
-import contactForm from './contactform';
 
 class ContactMe extends Component {
   render(){
     return(
-      <div className="contactMeContainer" id="contactMe">
+      <div className="contactMeContainer ui stackable two column grid" id="contactMe">
 
-      <div className="contactBackgroundImg"></div>
+   
 
-        <div className="formContainer">
-            <form className="contactForm ui form" method="POST" action="https://formspree.io/your@email.com">
-            <div className="field">
-                <input className="name" type="text" name="name" placeholder="Your Name"></input>
-            </div>
-            <div className="field">
-                <input className="comapany" type="text" name="company" placeholder="Your Company Name"></input>
-            </div>
-            <div className="field">
-                <input className="email" type="email" name="email" placeholder="Your email"></input>
-            </div>
-            <div className="field">
-                <textarea className="message" name="message" placeholder="Enter Your Message"></textarea>
-            </div>
-              <button className="ui button submit" type="submit">Send Message</button>
-            </form>
+
+
+        <div className="formContainer column ">
+          <h3>Drop me a message</h3>
+          <form className="contactFormform ui form" method="POST" action="https://formspree.io/your@email.com">
+          <div className="field">
+              <input className="name" type="text" name="name" placeholder="Your Name"></input>
+          </div>
+          <div className="field">
+              <input className="comapany" type="text" name="company" placeholder="Your Company Name"></input>
+          </div>
+          <div className="field">
+              <input className="email" type="email" name="email" placeholder="Your email"></input>
+          </div>
+          <div className="field">
+              <textarea className="message" name="message" placeholder="Enter Your Message"></textarea>
+          </div>
+            <button className="ui button submit" type="submit">Send Message</button>
+          </form>
         </div>
 
-        <div className="contactContainer">
+        <div className="contactContainer column">
 
-          <div className="contactInfoContainer ui large list">
-            <div className="mailCircle item">
-              <div className="ui circular big medium icon button">
-                <i className="envelope open outline icon"></i>
+          <h3 className="contactTitle">Drop me a message</h3>
+        
+          <div className="contactInfoContainer">
+            <div className="ui items">
+              <div className="item email">
+                <div className="ui circular big medium icon button">
+                  <i className="envelope open outline icon"></i>
+                </div>
+                <div className="email content">
+                  <a href="mailto:contactme@rgdeveloper.com" className="email description">contactme@rgdeveloper.com</a>
+                </div>
               </div>
-              <div className="mail content">
-                <a href="mailto:contactme@rgdeveloper.com" className="email description">contactme@rgdeveloper.com</a>
+              <div className="item phone">
+                <div className="ui circular big medium icon button">
+                  <i className="mobile alternate icon"></i>
+                </div>
+                <div className="phone content">
+                  <div className="phone">555-555-5555</div>
+                </div>
               </div>
-            </div>
-            <div className="phoneCircle item">
-              <div className="ui circular big medium icon button">
-                <i className="mobile alternate icon"></i>
-              </div>
-              <div className="phone content">
-                <div className="phone">555-555-5555</div>
-              </div> 
             </div>
           </div>
+
+
 
           <div className="socialContainer">
             <button className="ui circular big twitter icon button">

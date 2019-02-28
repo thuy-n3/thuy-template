@@ -11,7 +11,7 @@ class Header extends Component{
           <Navigation />
         </div>
 
-        <div className="herocontainer">
+        <div className="herocontainer ">
           <div className="heroImg"></div>
           <div className="headerIntro">
             <h1 className="headerTitle">Hi I'm Ryan Gosling</h1>
