@@ -5,13 +5,9 @@ class ContactMe extends Component {
     return(
       <div className="contactMeContainer ui stackable two column grid" id="contactMe">
 
-   
-
-
-
-        <div className="formContainer column ">
-          <h3>Drop me a message</h3>
-          <form className="contactFormform ui form" method="POST" action="https://formspree.io/your@email.com">
+        <div className="contactbox column">
+          <h3 >Drop me a message</h3>
+          <form className="contactForm form ui form" method="POST" action="https://formspree.io/your@email.com">
           <div className="field">
               <input className="name" type="text" name="name" placeholder="Your Name"></input>
           </div>
@@ -29,10 +25,9 @@ class ContactMe extends Component {
         </div>
 
         <div className="contactContainer column">
-
-          <h3 className="contactTitle">Drop me a message</h3>
         
           <div className="contactInfoContainer">
+          <h3 className="getinTouch">Get In Touch</h3>
             <div className="ui items">
               <div className="item email">
                 <div className="ui circular big medium icon button">
@@ -56,6 +51,7 @@ class ContactMe extends Component {
 
 
           <div className="socialContainer">
+          <h3>Let Be Social</h3>
             <button className="ui circular big twitter icon button">
               <i className="twitter icon"><a href="/" className="twitter"></a></i>
             </button>

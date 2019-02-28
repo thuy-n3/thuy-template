@@ -116,40 +116,52 @@ a:hover{
 
 /* contactme */
 .contactMeContainer{
- border: solid grey 2px;
  padding: 50px;
 }
 
-.contactContainer{
-  border: solid yellow 3px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.contactbox{ 
+margin-top: 40px;
+text-align: center;
+ margin-bottom: 30px;
 }
 
-.contactTitle{
-  text-align: center;
+.contactForm{
+  padding-left: 30px;
+  padding-right: 30px;
 }
+/* .contactformContainer{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
 
- .formContainer{
-  border: solid pink 2px;
-  text-align: center;
-    margin-top: 30px;
-  margin-bottom: 30px;
- } 
+border: green solid 2px;
+}  */
 
+ .contactContainer{
+  margin-top: 40px;
+  /* margin-bottom: 30px; */
+}
 
 .contactInfoContainer{
-  border: blue solid 2px;
-  margin: 20px;
-  padding: 20px;
+  /* border: blue solid 2px; */
+}
+
+
+.getinTouch{
+  text-align: center;
+}
+
+.ui.items{
+   padding-left: 81px;
 }
 
 .socialContainer{
   text-align: center;
   margin: 20px;
   padding: 20px;
-  border: green solid 2px;
+ 
 }
+
 
  /* footer */
 
