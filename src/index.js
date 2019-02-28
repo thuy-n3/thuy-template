@@ -6,8 +6,10 @@ import { Header } from './components/header.js'
 import { AboutMe } from './components/aboutme.js'
 import { ContactMe } from './components/contactme.js'
 import { Footer } from './components/footer.js'
-import { ProjectCard } from './components/projectcard.js'
 import { ProjectGallery } from './components/projectgallery.js';
+import { ProjectCard } from './components/projectcard.js'
+import { ModalModalExample  } from './components/projectmodal.js'
+
 
 
 // for when you need to check whether you are in the browser or on the server
@@ -27,7 +29,7 @@ class App extends Component {
                    <Header />
                    <AboutMe />
                    <ProjectGallery />
-                
+            <ModalModalExample  />
                    <ContactMe />
                    <Footer />  
                  

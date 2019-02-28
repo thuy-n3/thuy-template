@@ -29,19 +29,17 @@ class ContactMe extends Component {
           <div className="contactInfoContainer">
           <h3 className="getinTouch">Get In Touch</h3>
 
-
-
-            <div className="ui items">
-              <div className="item email">
-                <div className="ui right pointing red basic label">
+            <div className="contactInfoContainer ui large list">
+              <div className="mailCircle item">
+                <div className="ui circular big medium icon button">
                   <i className="envelope open outline icon"></i>
                 </div>
                 <div className="email content">
                   <a href="mailto:contactme@rgdeveloper.com" className="email description">contactme@rgdeveloper.com</a>
                 </div>
               </div>
-              <div className="item phone">
-                <div className="ui right pointing red basic label">
+              <div className="phoneCircle item">
+                <div className="ui circular big medium icon button">
                   <i className="mobile alternate icon"></i>
                 </div>
                 <div className="phone content">
@@ -50,11 +48,9 @@ class ContactMe extends Component {
               </div>
             </div>
 
-            
           </div>
 
-
-
+          
           <div className="socialContainer">
           <h3>Let Be Social</h3>
             <button className="ui circular big twitter icon button">

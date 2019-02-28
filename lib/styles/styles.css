@@ -108,12 +108,18 @@ a:hover{
 
 
 
-
 /* projectcard */
 
 .projectCardContainer{
   border: blue solid 3px;
 }
+
+/* projectmodal */
+
+.modalContainer{
+border: blue solid 3px;
+}
+
 
 /* contactme */
 .contactMeContainer{
