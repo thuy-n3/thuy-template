@@ -122,6 +122,8 @@ a:hover{
 
 .contactContainer{
   border: solid yellow 3px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .contactTitle{
@@ -131,7 +133,10 @@ a:hover{
  .formContainer{
   border: solid pink 2px;
   text-align: center;
+    margin-top: 30px;
+  margin-bottom: 30px;
  } 
+
 
 .contactInfoContainer{
   border: blue solid 2px;
