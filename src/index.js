@@ -6,9 +6,9 @@ import { Header } from './components/header.js'
 import { AboutMe } from './components/aboutme.js'
 import { ContactMe } from './components/contactme.js'
 import { Footer } from './components/footer.js'
-import { ProjectGallery } from './components/projectgallery.js';
+import { ProjectGallery } from './components/projectgallery.js'
 import { ProjectCard } from './components/projectcard.js'
-import { ModalModalExample  } from './components/projectmodal.js'
+import { ModalBasicExample, ProjectModal } from './components/projectmodal.js'
 
 
 
@@ -29,7 +29,7 @@ class App extends Component {
                    <Header />
                    <AboutMe />
                    <ProjectGallery />
-            <ModalModalExample  />
+            <ProjectModal  />
                    <ContactMe />
                    <Footer />  
                  

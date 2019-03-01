@@ -21,7 +21,7 @@ class AboutMe extends Component{
           </div>
           <div className="githubButton secondary ui button">
             <i className="github icon"></i>
-            <a href="https://github.com/thuy-n3" target="blank">Github</a>
+            <a href="https://github.com" target="blank">Github</a>
           </div>
         </div>
       </div>

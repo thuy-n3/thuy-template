@@ -1,4 +1,3 @@
-// import React, { Component } from 'react';
 
 // class ProjectModal extends Component {
 //   render(){
@@ -20,24 +19,32 @@
 //   }
 // }
 
-// export default ModalModalExample
 
 import React, { Component } from 'react';
-import { Button, Header, Image, Modal } from 'semantic-ui-react';
+import { Button, Header, Image, Modal, Icon } from 'semantic-ui-react';
 
-const ModalModalExample  = () => (
-  <Modal trigger={<Button>Show Modal</Button>}>
-    <Modal.Header>Select a Photo</Modal.Header>
+
+const ProjectModal = () => (
+  <Modal trigger={<Button>Project Title</Button>} basic size='small'>
+    <Header icon='archive' content='Archive Old Messages' />
     <Modal.Content image>
-      <Image wrapped size='medium' src='https://react.semantic-ui.com/images/avatar/large/rachel.png' />
+      <Image wrapped size='medium' src='../../images/coffee/brooke-lark-289769-unsplash.jpg' />
       <Modal.Description>
-        <Header>Default Profile Image</Header>
-        <p>We've found the following gravatar image associated with your e-mail address.</p>
-        <p>Is it okay to use this photo?</p>
+        <p>
+          Your inbox is getting full, would you like us to enable automatic archiving of old messages?
+      </p>
       </Modal.Description>
     </Modal.Content>
+    <Modal.Actions>
+      <Button basic color='red' inverted>
+        <Icon name='remove' /> No
+      </Button>
+      <Button color='green' inverted>
+        <Icon name='checkmark' /> Yes
+      </Button>
+    </Modal.Actions>
   </Modal>
 )
 
 
-export { ModalModalExample }
+export { ProjectModal }
