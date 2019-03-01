@@ -111,7 +111,8 @@ a:hover{
 /* projectcard */
 
 .projectCardContainer{
-  border: blue solid 3px;
+  /* border: blue solid 3px; */
+  margin: 20px;
 }
 
 /* projectmodal */
