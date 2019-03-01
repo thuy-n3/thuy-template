@@ -167,3 +167,52 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+<div className="column">
+  <div className=" ui fluid card">
+    <div className="projectImg image">
+      <img src="./images/coffee/brooke-lark-289769-unsplash.jpg" />
+    </div>
+    <div className="content">
+      <div className="center aligned header">Matt Giampietro</div>
+      <div className="center aligned description"> Matthew is an interior designer living in New York.</div>
+    </div>
+    <div className="extra content">
+      <div className="ui two buttons">
+        <div className="ui basic green button">Approve</div>
+        <div className="ui basic red button">Decline</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div className="ui fluid card">
+  <div className="image">
+    <img src="./images/coffee/brooke-lark-289769-unsplash.jpg" />
+  </div>
+  <div className="content">
+    <div className="header">Project Title</div>
+    <div className="meta">Project Meta</div>
+    <div className="description">I was very excited. I went through puberty in a theme park. I think American news is pretty tragic in general. </div>
+  </div>
+  <div className="extra content">
+    <span class="right floated">
+      Joined in 2013
+    </span>
+    <span>
+      <i class="user icon"></i>
+      75 Friends
+    </span>
+  </div>
+</div>

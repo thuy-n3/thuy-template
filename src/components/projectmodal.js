@@ -25,19 +25,25 @@ import { Button, Header, Image, Modal, Icon } from 'semantic-ui-react';
 
 
 const ProjectModal = () => (
-  <Modal trigger={<Button>Project Title</Button>} basic size='small'>
-    <Header icon='archive' content='Archive Old Messages' />
+  <Modal trigger={<Button>See Project</Button>} basic size='small'>
+    <Header icon='archive' content='Project Title' />
     <Modal.Content image>
       <Image wrapped size='medium' src='../../images/coffee/brooke-lark-289769-unsplash.jpg' />
       <Modal.Description>
         <p>
-          Your inbox is getting full, would you like us to enable automatic archiving of old messages?
-      </p>
+          It's nice to be around people that have a sense of the world around them, that are, in general, more conscious and conscientious.
+        </p>
+        <p>
+          Tech Used: React, Semantic Ui
+        </p>
+        <a href="www.google.com">Github</a>
+        <a href="www.github.com">Github</a>
       </Modal.Description>
     </Modal.Content>
     <Modal.Actions>
       <Button basic color='red' inverted>
-        <Icon name='remove' /> No
+        <Icon name='remove' /> 
+        <a href="www.google.com">Github</a>
       </Button>
       <Button color='green' inverted>
         <Icon name='checkmark' /> Yes

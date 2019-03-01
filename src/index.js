@@ -30,6 +30,7 @@ class App extends Component {
                    <AboutMe />
                    <ProjectGallery />
             <ProjectModal  />
+            <ProjectCard />
                    <ContactMe />
                    <Footer />  
                  
