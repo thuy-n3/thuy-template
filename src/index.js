@@ -2,13 +2,13 @@ const React = require('react') ,
     { Component } = React
 import { render } from 'react-dom'
 import { Header } from './components/header.js'
-// import {ProjectGallery} from './components/projectgallery.js'
 import { AboutMe } from './components/aboutme.js'
 import { ContactMe } from './components/contactme.js'
 import { Footer } from './components/footer.js'
 import { ProjectGallery } from './components/projectgallery.js'
 import { ProjectCard } from './components/projectcard.js'
-import { ModalBasicExample, ProjectModal } from './components/projectmodal.js'
+import { ProjectInfo} from './components/projectInfo.js'
+
 
 
 
@@ -29,7 +29,7 @@ class App extends Component {
                    <Header />
                    <AboutMe />
                    <ProjectGallery />
-                   <ProjectCard />
+                   <ProjectInfo />
                    <ContactMe />
                    <Footer />  
                  
@@ -42,9 +42,3 @@ isClient && render(<App /> , document.getElementById('reactRoot'))
 export { App }
 
 
-//Header 
-//ProjectGallery 
-//AboutMe
-//ContactMe
-//Resume
-//Footer

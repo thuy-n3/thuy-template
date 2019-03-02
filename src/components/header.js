@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './navigation';
 
 
+
 class Header extends Component{
   render(){
     return(
@@ -14,14 +15,11 @@ class Header extends Component{
         <div className="herocontainer ">
           <div className="heroImg"></div>
           <div className="headerIntro">
-            <h1 className="headerTitle">Hi I'm Ryan Gosling</h1>
-            <h2 className="headerSubtitle">A Web Developer</h2>
-            <a href="#contactme" className="contactme ui inverted button">Contact Me</a>
+            <h1 className="headerTitle ui first header">Hi I'm Ryan Gosling</h1>
+            <h2 className="headerSubtitle ui second header ">A Web Developer</h2>
+            <a href="#contactme" className="contactme ui large inverted standard button">Contact Me</a>
           </div>
         </div>
-
-
-
 
 
       </div>
