@@ -4,7 +4,7 @@ class Navigation extends Component{
   render(){
     return(
       // <div className="navContainer ui secondary menu">
-      <div className="navContainer ui inverted text menu">
+      <div className="navContainer ui inverted text huge menu">
        
           <img className="logo" src="./images/RGlogo-100.png" /> 
           <a href="#home" className="home item active">Home</a>

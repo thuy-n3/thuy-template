@@ -29,7 +29,7 @@ class App extends Component {
                    <Header />
                    <AboutMe />
                    <ProjectGallery />
-                   <ProjectCard />
+                   <ProjectInfo />
                    <ContactMe />
                    <Footer />  
                  

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from './navigation';
+import { DropNav } from './dropnav';
+
 
 
 
@@ -9,7 +11,11 @@ class Header extends Component{
       <div className="headerContainer" id="home">
       
         <div className="navBar">
-          <Navigation />
+        
+        </div>
+
+        <div className="mobNav">
+          <DropNav />
         </div>
 
         <div className="herocontainer ">
