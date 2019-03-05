@@ -90,7 +90,9 @@ const ProjectInfo = (props) => {
 
 
 
-const projectDetails = {
+const projectDetails = 
+{
+
   title: 'title of project',
   description: 'I was very excited. I went through puberty in a theme park. I think American news is pretty tragic in general.',
   image: {

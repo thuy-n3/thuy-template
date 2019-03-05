@@ -13,7 +13,7 @@ class AboutMe extends Component{
 
           I drive. Then, telling Derek Cianfrance that I'd ever I could rob a bank I'd do it on my motorcycle, and he said 'That's weird, I just wrote a script about that'. You have a shelf life as an actor, so you have to find another way to express yourself. You just tell me what you want, and I'm gonna be that for you. You get a new one.</p>
         </div> 
-        <div className="buttonContainer">
+        <div className="bioButtonContainer">
           <div className="resumeButton ui inverted large primary button"> 
               <i className="file outline icon
               "></i>
