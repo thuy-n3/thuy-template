@@ -5,7 +5,7 @@ class AboutMe extends Component{
     return(
       <div className="aboutMeContainer" id="aboutMe">
         <h1 className="bioTitle">About Me</h1>
-        <img className="bioImage" src="./images/ryanwhiteshirt.jpg" />
+        <img className="bioImage responsiveryan" src="./images/ryanwhiteshirt.jpg" />
         <div className="bioContainer">
           <p className="bioText">I could be pensive, uhh... smart, supersticious, brave? And I, uhh, I can be light on my feet. Hey girl, I brought home a few bottles of wine since I know you needed more corks for that pinterest project. And I just turn up the parts of myself that are them and turn down the parts that aren't. Anything happens in that five minutes and I'm yours. I want all of you, forever, everyday. You and me...everyday.
 

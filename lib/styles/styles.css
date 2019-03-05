@@ -55,13 +55,17 @@ h2.ui.header.headerSubtitle{
 }
 
 
-
 .bioImage{
   width:25%;
   border-radius: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
+  min-width: 250px;
+ 
+ 
 }
+
+
 
 .bioTitle{
   font-size:3rem;
@@ -212,3 +216,26 @@ border: green solid 2px;
 /* Mobile Styling  */
 /* ============================================== */
                                    
+/* @media (min-width: 320px){
+
+  .headerIntro{
+    width: 100%;
+  }
+
+  .h1.ui.header.headerTitle{
+    font-size: 9em;
+  }
+
+  .h2.ui.header.headerSubtitle{
+    font-size: 6em;
+  }
+
+
+  
+} */
+
+@media (min-width: 370px) {
+    .h1.ui.header.headerTitle{
+      color: blue;
+    }
+  }
