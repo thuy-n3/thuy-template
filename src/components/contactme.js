@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ContactMe extends Component {
   render(){
     return(
-      <div className="contactMeContainer ui stackable two column grid" id="contactMe">
+      <div className="contactMeContainer ui stackable two column grid container" id="contactMe">
 
         <div className="contactbox column">
           <h3 >Drop me a message</h3>

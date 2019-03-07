@@ -216,3 +216,87 @@
     </span>
   </div>
 </div>
+
+
+
+
+const ProjectGallery = () => {
+  return (
+    <div className="projectGalleryContainer container" id="myProjects">
+      <div className="backgroundImg"></div>
+      <div className="galleryIntro">
+        <h1 className="pgtitle sectionTitle">Project Gallery</h1>
+
+      </div>
+      <div className="gridContainer ">
+
+        {/* <ProjectCard /> */}
+
+        <div className="ui three stackable centered link cards three column grid ">
+          <div className="column">
+            <div className="ui fluid card">
+              <div className="image">
+                <img src='./images/coffee/michal-parzuchowski-324218-unsplash.jpg' />
+              </div>
+              <div className="content">
+                <div className="header">{projectData.title}</div>
+                <div className="description">{projectData.description} </div>
+                <br />
+                <div className="techUsed">{projectData.tech}</div>
+              </div>
+              <div className="extra content">
+                <span className="right floated">
+                  <i className="arrow circle right large icon"></i>
+                  <a href={projectData.github}>Check it out</a>
+                </span>
+                <span>
+                  <i className="github large icon"></i>
+                  <a href={projectData.projectsite}>Github</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  )
+}
+
+
+
+
+
+
+
+
+
+const projs = [
+  { title: 'x', desc: 'abc' },
+  { title: 'y', desc: 'abc' },
+]
+const Item = ({ title, desc }) => 
+<div key={key}>
+  <div>{title}</div>
+  <div>{desc}</div>
+</div>
+const gal = () => {
+  return <div>
+    {projs.map((proj, i, a) => {
+      <Item {...{ title: proj.title, desc: proj.desc, key: i }} />
+    })}
+  </div>
+}
+
+
+
+function abc(obj, { o }) {
+  console.log(obj.myNumber)
+}
+abc({ myNumber: 123 }, { o: 123 })
+
+
+react.render(function (props) {
+  return react(function () { })
+})

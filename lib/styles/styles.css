@@ -216,26 +216,26 @@ border: green solid 2px;
 /* Mobile Styling  */
 /* ============================================== */
                                    
-/* @media (min-width: 320px){
+@media (max-width: 320px){
 
   .headerIntro{
     width: 100%;
   }
 
-  .h1.ui.header.headerTitle{
-    font-size: 9em;
+  h1.ui.header.headerTitle{
+    font-size: 7em;
   }
 
-  .h2.ui.header.headerSubtitle{
-    font-size: 6em;
+  h2.ui.header.headerSubtitle{
+    font-size: 4em;
   }
 
 
   
-} */
+} 
 
-@media (min-width: 370px) {
-    .h1.ui.header.headerTitle{
-      color: blue;
-    }
+/* .container.variables{
+  $largestMobileScreen{
+    
   }
+} */

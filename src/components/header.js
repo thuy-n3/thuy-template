@@ -8,7 +8,7 @@ import { DropNav } from './dropnav';
 class Header extends Component{
   render(){
     return(
-      <div className="headerContainer" id="home">
+      <div className="headerContainer grid container" id="home">
       
         <div className="navBar">
         
@@ -18,7 +18,7 @@ class Header extends Component{
           <DropNav />
         </div>
 
-        <div className="herocontainer ">
+        <div className="herocontainer four wide column">
           <div className="heroImg"></div>
           <div className="headerIntro">
             <h1 className="headerTitle ui first header">Hi I'm Ryan Gosling</h1>
