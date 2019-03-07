@@ -300,3 +300,9 @@ abc({ myNumber: 123 }, { o: 123 })
 react.render(function (props) {
   return react(function () { })
 })
+
+
+
+    {projectData.map((data, i ,a) =>  {
+          return <ProjectCard {...{title: data.title, description: data.description, image: data.image.src, tech: data.tech, github: data.github, projectsite: data.projectsite, key: i }} />
+        })}
