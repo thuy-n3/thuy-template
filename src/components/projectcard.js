@@ -7,7 +7,6 @@ class ProjectCard extends Component {
       <div className="projectCardContainer">
         <div className="ui three stackable centered link cards three column grid ">
 
-
           <div className="column">
               <div className="ui fluid card">
                 <div className="image">
