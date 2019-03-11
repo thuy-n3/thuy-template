@@ -319,7 +319,7 @@ react.render(function (props) {
 
   <div className="ui three stackable centered link cards three column grid container">
     <div className="column">
-      <div className="ui fluid card">
+      <div className="ui fluid card" key={key}>
         <div className="image">
           <img src={image.src} alt={image.alt} />
         </div>

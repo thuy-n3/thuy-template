@@ -14,35 +14,30 @@ import React, { Component } from 'react';
 
 const ProjectGallery = () => {
   return(
-    <div className="projectGalleryContainer container" id="myProjects">
-      <div className="backgroundImg"></div>
-      <div className="galleryIntro">
+    <div className="projectGalleryContainer" id="myProjects">
+      <div className="backgroundImg">
+   
+
         <h1 className="pgtitle sectionTitle">Project Gallery</h1>
-
-      </div>
+   
     
-
-       {/* <ProjectCard /> */}
-
-
         <div className="projectCardContainer" >
 
           <div className="ui three stackable cards ">
            
-
-                {projectData.map((data, i ,a) =>  {
+          {projectData.map((data, i ,a) =>  {
           return <ProjectCard {...{...data, key:i}} />
-        })}
+          })}
 
           </div>
 
-          </div>
+        </div>
 
-    
+     
+      </div>
     </div>
   )
 }
-
 
 
 
@@ -103,6 +98,7 @@ const projectData = [
       src: '../images/coffee/brooke-lark-289769-unsplash.jpg',
       alt: 'coffee 3'
     },
+    tech: "React, Semantic Ui",
     github: 'http://github.com',
     projectsite: 'http://google.com'
 

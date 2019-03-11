@@ -7,7 +7,6 @@ import { ContactMe } from './components/contactme.js'
 import { Footer } from './components/footer.js'
 import { ProjectGallery } from './components/projectgallery.js'
 import { ProjectCard } from './components/projectcard.js'
-import { ProjectInfo} from './components/projectInfo.js'
 
 
 

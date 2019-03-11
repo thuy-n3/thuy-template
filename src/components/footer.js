@@ -4,7 +4,7 @@ import Navigation from './navigation.js';
 class Footer extends Component{
   render(){
     return (
-      <div className="footerContainer container">
+      <div className="footerContainer">
         <div className="footerImg">
           <Navigation />
         </div>

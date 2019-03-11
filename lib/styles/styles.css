@@ -67,6 +67,7 @@ h2.ui.header.headerSubtitle{
 .bioTitle{
   font-size:3rem;
   color:black;
+ 
 }
 
 .bioContainer{
@@ -99,11 +100,12 @@ a:hover{
 
 /* projectgallery */
 .projectGalleryContainer{
-  position: relative;
+  /* position: relative; */
+
 }
 
 .backgroundImg{
-  height: 100%; 
+  /* height: 100%;  */
   background-position:center; ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,26 +113,29 @@ a:hover{
   background-image: url("../../images/dulcey-lima-1371461-unsplash.jpg");
 }
 
-.galleryIntro{
+/* .galleryIntro{
   text-align: center;
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
+} */
 
 .pgTitle{
   font-size:3rem;
   color:white;
+  text-align: center;
+  padding-top: 20px;
+
 }
 
 
 /* projectcard */
 
 .projectCardContainer{
-  border: blue solid 3px;
-  margin: 20px;
+  /* border: blue solid 3px; */
+ padding: 40px;
  
   
 }

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class AboutMe extends Component{
   render() {
     return(
-      <div className="aboutMeContainer container" id="aboutMe">
+      <div className="aboutMeContainer " id="aboutMe">
         <h1 className="bioTitle">About Me</h1>
         <img className="bioImage responsiveryan" src="./images/ryanwhiteshirt.jpg" />
         <div className="bioContainer">
