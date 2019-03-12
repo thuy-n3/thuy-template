@@ -208,9 +208,10 @@ text-align: center;
     z-index: 100;
     position: absolute;
   }
+
+
   
 } 
-
 
 @media (min-width: 700px){
   .mobNav{

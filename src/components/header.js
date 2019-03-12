@@ -35,7 +35,3 @@ class Header extends Component{
 
 export {Header};
 
-// <img className="heroImg" src="./images/coffeedesk.jpg" /> 
-
-// <a href="#contactme" className="contactme">Contact Me</a>
-// <a href="#projects" className="seeProjects"> My Projects</a>
