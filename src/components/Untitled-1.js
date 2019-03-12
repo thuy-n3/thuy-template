@@ -374,3 +374,11 @@ react.render(function (props) {
     </div>
   </div>
 </div>
+
+
+
+
+
+<div className="mobNav">
+  <DropNav />
+</div>

@@ -2,7 +2,6 @@ body, html{
   box-sizing: border-box;
 }
 
-
 /* navigation */
 .ui.text.menu{
   color: white;
@@ -33,18 +32,19 @@ body, html{
 }
 
 h1.ui.header.headerTitle{
-  font-size: 4em;
+  font-size: 3em;
   color: white;
 }
 
 h2.ui.header.headerSubtitle{
-  font-size: 3em; 
+  font-size: 2em; 
   color:white;
 }
 
 .navBar{
   position: absolute; 
   z-index: 100;
+  
 }
 
 /* aboutme */
@@ -75,9 +75,9 @@ h2.ui.header.headerSubtitle{
 }
 
 .bioText{
-  line-height: 1.95;
-  padding-right: 50px;
-  padding-left: 50px;
+  line-height: 1.65;
+  padding-right: 30px;
+  padding-left: 30px;
   font-size: 1.2em;
   text-align: justify;
 }
@@ -95,13 +95,9 @@ a:hover{
   color: white;
 }
 
-
-
-
 /* projectgallery */
 .projectGalleryContainer{
   /* position: relative; */
-
 }
 
 .backgroundImg{
@@ -113,15 +109,6 @@ a:hover{
   background-image: url("../../images/dulcey-lima-1371461-unsplash.jpg");
 }
 
-/* .galleryIntro{
-  text-align: center;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-} */
-
 .pgTitle{
   font-size:3rem;
   color:white;
@@ -130,14 +117,11 @@ a:hover{
 
 }
 
-
 /* projectcard */
 
 .projectCardContainer{
   /* border: blue solid 3px; */
  padding: 40px;
- 
-  
 }
 
 .coffeeimg{
@@ -160,15 +144,8 @@ text-align: center;
   padding-left: 30px;
   padding-right: 30px;
 }
-/* .contactformContainer{
-text-align: center;
-margin-top: 30px;
-margin-bottom: 30px;
 
-border: green solid 2px;
-}  */
-
- .contactContainer{
+.contactContainer{
   margin-top: 40px;
   /* margin-bottom: 30px; */
 }
@@ -176,7 +153,6 @@ border: green solid 2px;
 .contactInfoContainer{
   /* border: blue solid 2px; */
 }
-
 
 .getinTouch{
   text-align: center;
@@ -190,7 +166,6 @@ border: green solid 2px;
   text-align: center;
   margin: 20px;
   padding: 20px;
- 
 }
 
 
@@ -198,9 +173,12 @@ border: green solid 2px;
 
  .footContainer{
   position: relative;
+  margin: 0 auto; 
+  width: 100%
  }
 
  .footerImg{
+   height: 65px;
   background-position:center; ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,31 +186,34 @@ border: green solid 2px;
   background-image: url("../../images/michael-dziedzic-1281842-unsplash.jpg");
  }
 
+ .footerTxt{
+   color: white;
+   padding-top: 25px;
+   padding-left: 20px;
+  
+ }
+
 
 /* ============================================== */
 /* Mobile Styling  */
 /* ============================================== */
                                    
-@media (max-width: 320px){
+@media (max-width: 667px){
 
-  .headerIntro{
-    width: 100%;
+  .navBar{
+    z-index: 0;
   }
 
-  h1.ui.header.headerTitle{
-    font-size: 7em;
+  .mobNav{
+    z-index: 100;
+    position: absolute;
   }
-
-  h2.ui.header.headerSubtitle{
-    font-size: 4em;
-  }
-
-
   
 } 
 
-/* .container.variables{
-  $largestMobileScreen{
-    
+
+@media (min-width: 700px){
+  .mobNav{
+   position: absolute;
   }
-} */
+}

@@ -28,10 +28,3 @@ class DropNav extends Component {
 export {DropNav};
 
 
-
-
-// <img className="logo" src="./images/RGlogo-100.png" />
-//   <a href="#home" className="home item active">Home</a>
-//   <a href="#aboutMe" className="aboutMe item">About Me</a>
-//   <a href="#myProjects" className="myProjects item">My Projects</a>
-//   <a href="#contactme" className="contactMe item">Contact Me</a>

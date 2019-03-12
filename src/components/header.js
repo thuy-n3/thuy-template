@@ -11,7 +11,7 @@ class Header extends Component{
       <div className="headerContainer grid " id="home">
       
         <div className="navBar">
-        
+          <Navigation />
         </div>
 
         <div className="mobNav">

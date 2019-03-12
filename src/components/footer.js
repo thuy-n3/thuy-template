@@ -6,7 +6,7 @@ class Footer extends Component{
     return (
       <div className="footerContainer">
         <div className="footerImg">
-          <Navigation />
+         <h5 className="footerTxt">Ryan Gosling Web Developer 2019</h5>
         </div>
       </div>
     )
